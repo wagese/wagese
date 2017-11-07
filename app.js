@@ -11,6 +11,7 @@ class Server {
     this.music = music;
     this.player = player;
     this.films = films;
+    this.httpSerever = express.run();
 
   }
   
