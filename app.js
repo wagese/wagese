@@ -1,7 +1,6 @@
-const server = require('express');
-const md5 = require('md5')
-const client = require('./models/client')
-
+const server = require('express'),
+const md5 = require('md5'),
+const client = require('./models/client');
 
 class Server {
 
@@ -18,6 +17,7 @@ class Server {
   setUser(user) {
     this.user = user;
   }
+  
   serialize() {
     return {
       user: user,
