@@ -22,6 +22,10 @@ class Server {
   setUser(user) {
     this.user = user;
   }
+      
+  getHttpSerever() {
+    return this.httpSerever;
+  }
   
   serialize() {
     return {
